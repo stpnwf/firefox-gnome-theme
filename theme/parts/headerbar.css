@@ -8,7 +8,7 @@
 	padding: 6px 3px !important;
 }
 
-/* Add private window headerbar indicator */
+/* Add private window headerbar indicator 
 :root[privatebrowsingmode="temporary"] #nav-bar toolbarspring:first-of-type:before {
 	background: url("../icons/eye-not-looking-symbolic.svg") no-repeat;
 	background-size: 64px 64px;
@@ -23,7 +23,7 @@
 	fill-opacity: 0.2 !important;
 	-moz-context-properties: fill, fill-opacity;
   }
-
+*/
 /* Hide tabsbar default private browsing indicator */
 #private-browsing-indicator-with-label {
 	display: none !important;

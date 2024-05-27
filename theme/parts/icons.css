@@ -275,7 +275,7 @@ link[href="chrome://global/skin/dropmarker.css"] + image {
 	 list-style-image: url("../icons/pan-down-symbolic.svg") !important;
 }
 
-/* Close button */
+/* Close button 
 .close-icon:not(.tab-close-button),
 .identity-popup-permission-remove-button .button-icon,
 .permission-popup-permission-remove-button > .button-box > .button-icon {
@@ -284,7 +284,7 @@ link[href="chrome://global/skin/dropmarker.css"] + image {
 #urlbar-search-mode-indicator-close,
 button.close::before {
 	background-image: url("../icons/window-close-symbolic.svg") !important;
-}
+}*/
 @media (prefers-color-scheme: light) {
 	.notificationbox-stack notification[type="critical"] .close-icon:not(.tab-close-button):not(:hover) {
 		fill: #fff !important;
@@ -296,7 +296,7 @@ button.close::before {
 	}
 }
 
-/* Window buttons */
+/* Window buttons 
 :root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-close .toolbarbutton-icon {
 	list-style-image: url("../icons/window-close-symbolic.svg") !important;
 }
@@ -315,7 +315,7 @@ button.close::before {
 :root[tabsintitlebar][inFullscreen] #window-controls #restore-button .toolbarbutton-icon {
 	list-style-image: url("../icons/view-restore-symbolic.svg") !important;
 }
-
+*/
 /* Sound icons */
 .tab-icon-overlay[soundplaying] {
     list-style-image: url("../icons/audio-playing-symbolic.svg") !important;
